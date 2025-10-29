@@ -15,6 +15,10 @@ const config = {
 			runtime: 'edge'
 		}),
 
+		csrf: {
+			trustedOrigins: 'https://stagingxpay.info' // allow callbacks from this address
+		},
+
 		alias: {
 			$lib: './src/lib',
 			$routes: './src/routes'

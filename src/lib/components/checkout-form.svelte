@@ -105,6 +105,17 @@
 			<label for="order_id">Order ID</label>
 			<input type="text" name="order_id" bind:value={order_id} />
 		</div>
+
+		<p class="text-nowrap mt-2 text-left">
+			Sample Testing Cards:
+			<a
+				class="link break-all text-wrap"
+				target="_blank"
+				rel="noopener noreferrer"
+				href="https://developers.webxpay.com/Guides/Tokenize-Integration/tokenize.html#:~:text=13.-,Test%20Cards,-4111%201111%201111"
+				>https://developers.webxpay.com/Guides/Tokenize-Integration/tokenize.html#:~:text=13.-,Test%20Cards,-4111%201111%201111</a
+			>
+		</p>
 	</div>
 
 	<div class="card card-padding vflex !items-stretch">

@@ -16,7 +16,7 @@ const config = {
 		}),
 
 		csrf: {
-			trustedOrigins: 'https://stagingxpay.info' // allow callbacks from this address
+			trustedOrigins: ['https://stagingxpay.info'] // allow callbacks from this address
 		},
 
 		alias: {

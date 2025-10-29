@@ -20,7 +20,7 @@
 		github: {
 			type: 'LINK',
 			iconClassName: 'fa-brands fa-github',
-			url: 'https://github.com/JoeskiG'
+			url: 'https://github.com/JoeskiG/webxpay-sample'
 		},
 		email: {
 			type: 'TO',

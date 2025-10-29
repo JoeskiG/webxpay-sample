@@ -67,9 +67,11 @@
 
 			<ul class="list-disc ml-6">
 				<li class="text-destructive font-bold">
-					Do NOT expose your public key.
+					Keep your public key secure and follow proper security practices.
 					<ul class="list-disc ml-6">
-						<li class="font-normal">It should ONLY be on your SERVER side.</li>
+						<li class="font-normal">
+							It should only be accessible on your server, never in client-side code.
+						</li>
 					</ul>
 				</li>
 

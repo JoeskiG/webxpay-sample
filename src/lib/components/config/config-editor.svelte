@@ -22,6 +22,7 @@
 	<div class="vflex-s !gap-1 mb-3">
 		<h3 class="h3">Configuration</h3>
 		<p class="text-muted-foreground">These values are stored as HttpOnly cookies.</p>
+		<p>You can find your configuration settings in your account settings page.</p>
 	</div>
 
 	<form
@@ -40,7 +41,13 @@
 	>
 		<label for="secret_key">Secret Key</label>
 		<div class="vflex !items-stretch !gap-0">
-			<input type="text" name="secret_key" id="secret_key" bind:value={secret_key} />
+			<input
+				type="text"
+				name="secret_key"
+				id="secret_key"
+				bind:value={secret_key}
+				placeholder="In your account settings page, looks like a UUID..."
+			/>
 			{#if secret_keySpacesExist}
 				<p class="text-destructive">
 					Spaces detected in secret key. <button

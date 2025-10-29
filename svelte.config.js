@@ -13,7 +13,7 @@ const config = {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: adapter(),
 		csrf: {
-			trustedOrigins: 'https://stagingxpay.info' // allow callbacks from this address
+			trustedOrigins: ['https://stagingxpay.info'] // allow callbacks from this address
 		},
 
 		alias: {

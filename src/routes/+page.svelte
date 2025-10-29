@@ -77,6 +77,16 @@
 					This sample stores the public key in browser cookies. Do <b>NOT</b> do this in production.
 					This is purely for sample and testing purposes.
 				</li>
+
+				<!-- Privacy note. -->
+				<li>
+					This sample application may process user inputs temporarily to demonstrate
+					functionality, but it does not store, retain, or log any user data. While
+					deployed on Vercel and subject to their logging policies, I do not collect or
+					persist any inputs. Note that any payment information may be handled or recorded
+					by the payment gateway or related services, but this application itself does not
+					retain that data.
+				</li>
 			</ul>
 		</div>
 

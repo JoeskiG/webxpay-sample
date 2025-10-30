@@ -43,6 +43,10 @@ export async function verifyWithPublicKey(
 	return verified;
 }
 
+/*
+	!!!! DO NOT EXPOSE YOUR PUBLIC KEY ON THE FRONTEND !!!!
+	ENCRYPTION IS DONE IN THIS SAMPLE ON THE FRONTEND FOR DEMONSTRATION PURPOSES ONLY.
+*/
 export async function encryptWithPublicKey(message: string, publicKey: string) {
 	const binaryDer = base64ToArrayBuffer(publicKey);
 	const cryptoKey = await window.crypto.subtle.importKey(

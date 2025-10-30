@@ -60,6 +60,10 @@
 
 	let stringToEncrypt = $derived(order_id + '|' + String(price));
 
+	/*
+		!!!! DO NOT EXPOSE YOUR PUBLIC KEY ON THE FRONTEND !!!!
+		ENCRYPTION IS DONE IN THIS SAMPLE ON THE FRONTEND FOR DEMONSTRATION PURPOSES ONLY.
+	*/
 	function encryptPayment() {
 		if (configStore.state.publicKey) {
 			// Have a look at this function

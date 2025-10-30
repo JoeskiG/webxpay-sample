@@ -49,7 +49,7 @@ export async function verifyWithPublicKey(
 */
 export async function encryptWithPublicKey(message: string, publicKey: string) {
 	const binaryDer = base64ToArrayBuffer(publicKey);
-	const cryptoKey = await window.crypto.subtle.importKey(
+	const cryptoKey = await crypto.subtle.importKey(
 		'spki',
 		binaryDer.buffer,
 		{
@@ -62,7 +62,7 @@ export async function encryptWithPublicKey(message: string, publicKey: string) {
 
 	const enc = new TextEncoder();
 	const encodedMessage = enc.encode(message);
-	const encryptedData = await window.crypto.subtle.encrypt(
+	const encryptedData = await crypto.subtle.encrypt(
 		{
 			name: 'RSA-OAEP'
 		},

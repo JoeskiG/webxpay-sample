@@ -59,7 +59,7 @@
 				href="https://webxpay.com/"
 			>
 				WEBXPAY
-			</a>. I built this sample to test implementations.
+			</a>. This sample is not official. I built this sample to test implementations.
 		</p>
 
 		<div class="vflex-s !gap-2 mt-2 card card-padding">
